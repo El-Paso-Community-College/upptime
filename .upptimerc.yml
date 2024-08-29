@@ -43,9 +43,9 @@ status-website:
   logoUrl: https://www.epcc.edu/style%20library/epcc/images/epcc_logo_white.svg
   name: Status
   introTitle: "uptime monitor and status page"
-  introMessage: [INTRO MESSAGE]
+  introMessage: "INTRO MESSAGE"
   i18n:
-    footer: [FOOTER]
+    footer: "FOOTER"
   navbar:
     - title: Status
       href: /
