@@ -44,12 +44,13 @@ status-website:
   name: Status
   introTitle: "uptime monitor and status page"
   introMessage: "INTRO MESSAGE"
-  i18n:
-    footer: "FOOTER"
   navbar:
     - title: Status
       href: /
   theme: night
+
+i18n:
+  footer: "FOOTER"
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
