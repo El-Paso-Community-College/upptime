@@ -5,10 +5,10 @@ repo: upptime # The name of this repository
 sites:
   - name: EPCC Public Website
     url: https://www.epcc.edu/pages/proxy.aspx
-    maxResponseTime: 5000
+    maxResponseTime: 1500
   - name: MyEPCC
     url: https://my.epcc.edu
-    maxResponseTime: 5000
+    maxResponseTime: 1500
     expectedStatusCodes:
       - 200
       - 201
