@@ -46,7 +46,7 @@ status-website:
   introMessage: "INTRO MESSAGE"
   navbar:
     - title: Status
-      href: /
+      href: /upptime
   theme: night
 
 i18n:
