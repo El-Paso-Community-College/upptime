@@ -15,24 +15,41 @@ sites:
       - 401
   - name: Self Service Banner
     url: https://ssb3.epcc.edu:8444/StudentRegistrationSsb
-    maxResponseTime: 5000
+    maxResponseTime: 1500
   - name: Apps
     url: https://apps.epcc.edu
+    maxResponseTime: 1500
   - name: WAT
     url: https://wat.epcc.edu
+    maxResponseTime: 1500
   - name: ID Card Portal
-    url: https://idcard.epcc.edu    
+    url: https://idcard.epcc.edu  
+    maxResponseTime: 1500  
   - name: TouchNet
-    url: https://secure.touchnet.com/C20715_tsa/web    
+    url: https://secure.touchnet.com/C20715_tsa/web
+    maxResponseTime: 1500
   - name: Start
     url: https://start.epcc.edu/paciweb
-  - name: Google DNS 1
+    maxResponseTime: 1500
+  - name: DNS 1
     check: "tcp-ping"
-    url: 8.8.4.4
+    url: NS00.TRANSTELCO.NET
     port: 53
-  - name: Google DNS 2
+  - name: DNS 2
     check: "tcp-ping"
-    url: 8.8.8.8
+    url: NS01.TRANSTELCO.NET
+    port: 53
+  - name: DNS 3
+    check: "tcp-ping"
+    url: NS02.TRANSTELCO.NET
+    port: 53
+  - name: DNS 4
+    check: "tcp-ping"
+    url: NS03.TRANSTELCO.NET
+    port: 53
+  - name: DNS 5
+    check: "tcp-ping"
+    url: NS04.TRANSTELCO.NET
     port: 53
 
 status-website:
