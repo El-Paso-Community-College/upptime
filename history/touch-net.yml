@@ -1,7 +1,7 @@
 url: https://secure.touchnet.com/C20715_tsa/web
-status: up
+status: degraded
 code: 200
-responseTime: 128
-lastUpdated: 2024-09-20T12:17:26.683Z
+responseTime: 3708
+lastUpdated: 2024-09-20T12:52:10.037Z
 startTime: 2024-08-29T15:21:21.647Z
 generator: Upptime <https://github.com/upptime/upptime>
