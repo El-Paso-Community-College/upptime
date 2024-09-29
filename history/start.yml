@@ -1,7 +1,7 @@
 url: https://start.epcc.edu/paciweb
-status: up
+status: degraded
 code: 200
-responseTime: 78
-lastUpdated: 2024-09-29T17:11:54.114Z
+responseTime: 22463
+lastUpdated: 2024-09-29T17:26:58.805Z
 startTime: 2024-08-29T15:21:22.443Z
 generator: Upptime <https://github.com/upptime/upptime>
