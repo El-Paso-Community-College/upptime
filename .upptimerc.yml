@@ -31,6 +31,9 @@ sites:
   - name: Start
     url: https://start.epcc.edu/paciweb
     maxResponseTime: 1500
+  - name: ADFS
+    url: https://fs.epcc.edu/adfs/ls
+    maxResponseTime: 1500
   - name: DNS 1
     check: "tcp-ping"
     url: NS00.TRANSTELCO.NET
