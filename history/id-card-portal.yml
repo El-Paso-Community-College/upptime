@@ -1,7 +1,7 @@
 url: https://idcard.epcc.edu
-status: up
+status: degraded
 code: 200
-responseTime: 682
-lastUpdated: 2025-02-05T08:30:18.143Z
+responseTime: 4168
+lastUpdated: 2025-02-05T08:42:19.269Z
 startTime: 2024-08-29T15:21:20.973Z
 generator: Upptime <https://github.com/upptime/upptime>
